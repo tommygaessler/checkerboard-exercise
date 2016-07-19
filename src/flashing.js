@@ -2,7 +2,10 @@ setTimeout(function(){
   window.location.reload(1);
 }, 1000);
 
-// Your JS goes here
+var audioElement = document.createElement('audio');
+var sound = audioElement.setAttribute('src', 'http://mihailo.centarzatalente.com/sounds/click.mp3');
+audioElement.play();
+
 var body = document.getElementsByTagName('body')[0]
 body.style.margin = '0';
 
