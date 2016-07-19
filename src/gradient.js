@@ -21,7 +21,7 @@ body.style.margin = '0';
 
 // linear-gradient(to bottom, #3d4f77, #616f92);
 
-for (var i = 10; i < 90; i++)
+for (var i = 10; i < 91; i++)
 {
   var grad1 = document.createElement('div');
   document.body.appendChild(grad1);
@@ -31,9 +31,9 @@ for (var i = 10; i < 90; i++)
   grad1.style.cssFloat = 'left';
 }
 // F45866
-var grad1 = document.createElement('div');
-document.body.appendChild(grad1);
-grad1.style.paddingBottom = '11.1%';
-grad1.style.width = '11.1%';
-grad1.style.background = '#F45892';
-grad1.style.cssFloat = 'left';
+// var grad1 = document.createElement('div');
+// document.body.appendChild(grad1);
+// grad1.style.paddingBottom = '11.1%';
+// grad1.style.width = '11.1%';
+// grad1.style.background = '#F45892';
+// grad1.style.cssFloat = 'left';
